@@ -1,0 +1,8 @@
+title = "gitee api config file"
+
+[owner]
+name = 'leeffo'   #删除fork需要用到
+token = 'token'    #请修改为个人token
+api_url = 'https://gitee.com/api/v5/'
+count = '1'             #需要获取的关注仓库页
+repo = ['dde', 'kf5']         #单独仓库名称，在fork、delete中需要用到
